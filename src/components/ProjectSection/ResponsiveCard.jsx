@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import design from "../../images/design.jpg"
 
 const ResponsiveCard = () => {
@@ -13,14 +14,20 @@ const ResponsiveCard = () => {
                         <section className="md:flex">
 
                             {/* img */}
-                            <div className="">
-                                <img src={design} alt="design" className="h-48 w-full object-cover bg-center md:h-full md:w-48"/>
+                            <div className="w-1/2">
+                                <img src={design} alt="design" className="h-48 w-full object-cover bg-center md:h-full md:w-72"/>
                             </div>
                             {/* content */}
-                            <div className="p-8">
-                                <h1 className="text-sm text-indigo-500 font-semibold">
+                            <div className=" w-1/2">
+                                <h1 className="text-lg text-indigo-500 font-semibold">
                                 Deep Design Web
                                 </h1>
+                                <Link to="" className="text-blue-500 hover:text-blue-700">
+                              About us
+                                </Link>
+                                <p className="text-gray-300 p-4">
+                                Deep Design Web is a platform dedicated to helping businesses excel in the digital age. Their core services encompass Logo Design and Website Development, aimed at enabling small businesses to expand their reach globally. Their mission is to empower entrepreneurs by establishing a strong online presence and fostering growth. Deep Design Web is committed to crafting engaging digital experiences and turning clients' visions into vibrant online realities.
+                                </p>
 
                             </div>
 
