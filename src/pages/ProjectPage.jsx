@@ -1,7 +1,10 @@
+import { GlowingGradientButton } from "../components/ProjectSection/GlowingGradientButton"
 
 
 export const ProjectPage = () => {
   return (
-    <div>ProjectPage</div>
+    <div>
+      <GlowingGradientButton />
+    </div>
   )
 }
