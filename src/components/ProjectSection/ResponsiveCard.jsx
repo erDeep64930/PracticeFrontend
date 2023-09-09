@@ -3,7 +3,7 @@ import design from "../../images/design.jpg"
 
 const ResponsiveCard = () => {
     return (
-        <div className="my-4 bg-[#121321]">
+        <div className="my-4 bg-[#121321] p-5">
 
             <div className="flex justify-center p-6 items-center h-96">
                 <div className="my-3">
