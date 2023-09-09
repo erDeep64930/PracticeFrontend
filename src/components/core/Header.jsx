@@ -4,7 +4,7 @@ import { navMenu } from '../../constant/constant';
 import { NavLink } from 'react-router-dom';
 const Header = () => {
   
-      let [open, setOpen] =useState(false);
+      const [open, setOpen] =useState(false);
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0 z-40'>
@@ -15,7 +15,7 @@ const Header = () => {
                 <span>Deep Design Web</span>
             </div>
             {/* Menu icon */}
-            <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
+            <div onClick={()=>setOpen(prev=>!prev)} className='absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7'>
                 {
                     open ? <FaTimes/> : <FaBars />
                 }

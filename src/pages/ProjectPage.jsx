@@ -5,7 +5,7 @@ import ResponsiveCard from "../components/ProjectSection/ResponsiveCard"
 
 export const ProjectPage = () => {
   return (
-    <div className="flex flex-col my-2 px-4 -z-10">
+    <div className="grid grid-cols-1 my-2 px-4 -z-10">
       <GlowingGradientButton />
       <GlowingATMcard />
       <ResponsiveCard />
