@@ -7,4 +7,5 @@ export const navMenu =
     {title:"ABOUT",link:"/about"},
     {title:"CONTACT",link:"/contact"},
     {title:"PROJECT",link:"/project"},
+    {title:"LEARNING",link:"/learning"},
   ];

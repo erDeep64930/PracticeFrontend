@@ -1,6 +1,6 @@
 import Header from "./components/core/Header"
 import { Routes, Route } from "react-router-dom";
-import { HomePage, AboutPage, ContactPage, ServicePage, ProjectPage, PageNotFound } from "./pages/index"
+import { HomePage, AboutPage, ContactPage, ServicePage, ProjectPage, PageNotFound, LearningPage } from "./pages/index"
 
 const App = () => {
   return (
@@ -14,6 +14,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/project" element={<ProjectPage />} />
+        <Route path="/learning" element={<LearningPage />} />
         <Route path="*" element={<PageNotFound />} />
 
 
